@@ -1,6 +1,44 @@
+/* This is for Main Landing Page */
 .landing-page{
+    height: auto;
+    width: auto;
+    overflow: auto;
+    resize: horizontal;
+    resize: vertical;
 }
 
-nav{
+
+
+/* This is for Navbar */
+.navbar{
+    background-size: cover;
+    height: 124px;
+
     background-image: url("/assets/NavbarBackground.png");
+    resize: inherit;
+}
+ul{
+    text-align: center;
+    margin-left: 9%;
+    margin-right: 9%;
+}
+li{
+    display: inline;
+    resize: inherit;
+}
+button{
+    width: 171px;
+    height: 50px;
+    resize: inherit;
+    
+    border-radius: 20px
+}
+
+
+/* This is for Banner */
+
+.banner{
+    background-image: url("/assets/BackGound.png");
+    filter: blur(4px);
+    overflow: auto;
 }
