@@ -1,36 +1,40 @@
 /* This is for Main Landing Page */
-.landing-page{
-    height: auto;
-    width: auto;
-    overflow: auto;
+.Landing-Page{
+    background-color: antiquewhite;
+    height: 3484px;
+    margin-left: 20%;
+    margin-right: 20%;
     resize: horizontal;
     resize: vertical;
+    position: relative;
 }
 
 
 
 /* This is for Navbar */
 .navbar{
-    background-size: cover;
-    height: 124px;
 
-    background-image: url("/assets/NavbarBackground.png");
-    resize: inherit;
+    height: 124px;
+    background-color: #2D3748;
+    resize: horizontal;
+    resize: vertical;
 }
 ul{
     text-align: center;
     margin-left: 9%;
     margin-right: 9%;
+    padding: 10px;
 }
 li{
     display: inline;
     resize: inherit;
 }
 button{
+    vertical-align: middle;
+    align-content: center;
     width: 171px;
     height: 50px;
     resize: inherit;
-    
     border-radius: 20px
 }
 
@@ -38,7 +42,19 @@ button{
 /* This is for Banner */
 
 .banner{
-    background-image: url("/assets/BackGound.png");
-    filter: blur(4px);
-    overflow: auto;
 }
+
+#image-banner{
+    width: 100%;
+    position: absolute;
+}
+
+/* Media Screen*/
+@media screen and (max-width: 900px) {
+  .Landing-Page{   
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
+
